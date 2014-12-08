@@ -32,6 +32,12 @@ ini_set('display_errors','On');
 
   <style>
 
+  .code-input {
+    width:40%;
+    border: none;
+    height: auto;
+  }
+
   .CodeMirror {
     position:fixed;
     top:18px;
@@ -66,7 +72,7 @@ ini_set('display_errors','On');
       color: #05a;
   }
 
-  .highlight{
+  .highlight 
       font-style: italic;
       font-weight: bold;
       color: blue;
